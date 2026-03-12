@@ -1,9 +1,32 @@
-This agent implements the ReAct pattern. It doesn't just guess; it follows a logical loop:
+# Personal Task Agent 🤖
 
-Reasoning: The LLM (Gemini 2.5 Flash) analyzes the user prompt and determines which tool is needed.
+**AI Personal Task Manager built with Python**  
+Manage your daily tasks, to-do lists, and reminders with a smart AI agent that understands natural language and automates task management.
 
-Action: The system executes Python functions (Weather, Finance, or File System).
+---
 
-Safety Gate: For sensitive actions (deletion/conversion), the loop pauses for Human-in-the-loop confirmation.
+## 🔹 Features
 
-Observation: The result of the tool is fed back into the LLM's memory to generate the final response.
+- Add tasks: `"Add 'Finish project' to my list"`  
+- Remove tasks: `"Remove 'Call client' from my tasks"`  
+- List tasks: `"Show my pending tasks"`  
+- Smart suggestions for task prioritization  
+- Easy to extend with custom actions  
+- Works via command-line interface (CLI)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**  
+- **OpenAI API** for AI reasoning  
+- Optional: Long-term agent memory for persistent tasks  
+- Supports automation and integration with other Python tools
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/SanwalSharafat/Personal-Task-Agent.git
