@@ -42,7 +42,7 @@ Manage your daily tasks, to-do lists, and reminders with a smart AI agent that u
 
 5. Run the agent:
 
-     python main.py
+     python execution.py
 
 Start managing your tasks with simple commands!
 
