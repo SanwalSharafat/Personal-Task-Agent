@@ -1,3 +1,5 @@
-google-genai
-python-dotenv
-requests
+## 🛠️ Technologies Used
+- **LLM:** Google Gemini 2.5 Flash
+- **Language:** Python 3.10+
+- **APIs:** OpenWeatherMap API
+- **Tools:** Git, Dotenv, Requests
