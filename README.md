@@ -28,5 +28,26 @@ Manage your daily tasks, to-do lists, and reminders with a smart AI agent that u
 ## 🚀 How to Run
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/SanwalSharafat/Personal-Task-Agent.git
+
+    git clone https://github.com/SanwalSharafat/Personal-Task-Agent.git
+    Navigate to the folder:
+   
+3. Navigate to the folder:
+
+    cd Personal-Task-Agent
+
+4. Install dependencies:
+
+    pip install -r requirements.txt
+
+5. Run the agent:
+
+     python main.py
+
+Start managing your tasks with simple commands!
+
+🎯 Example Commands
+
+Add "Finish AI project"
+Remove "Buy groceries"
+Show my tasks
