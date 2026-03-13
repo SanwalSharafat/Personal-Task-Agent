@@ -55,3 +55,10 @@ Show my tasks
 1. **Weather:** "What's the temperature in Lahore?"
 2. **Tasks:** "Add 'Submit AI Project' to my tasks."
 3. **Multi-Tool:** "I have 100 USD. Convert it to PKR and then draft an email to ali@example.com about the exchange rate."
+
+
+🎯 Goal of the Project
+
+The goal of this project is to build a personal AI assistant system that helps users organize and manage their daily tasks automatically.
+
+This project is part of my journey to build a Personal AI Operating System
