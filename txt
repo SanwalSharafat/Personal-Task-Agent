@@ -1,0 +1,36 @@
+This is a very common scenario in professional development. Now, your Remote (GitHub) is ahead of your Local (your computer). If you try to push new code from your computer now, Git will give you an error because the two versions don't match.
+
+The "Sync" Workflow
+To fix this, you need to "Pull" those changes down to your computer. This keeps your local environment synchronized with your cloud repository
+
+git pull origin main
+
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 2.37 KiB | 71.00 KiB/s, done.
+From https://github.com/SanwalSharafat/Personal-Task-Agent
+ * branch            main       -> FETCH_HEAD
+   42ccf04..f4d6337  main       -> origin/main
+Updating 42ccf04..f4d6337
+Fast-forward
+ README.md       | 9 +++++++++
+ requirement.txt | 8 +++++---
+ 2 files changed, 14 insertions(+), 3 deletions(-)
+ create mode 100644 README.md
+
+The Golden Rule of Git
+To avoid "Merge Conflicts" (where Git gets confused about which version is right), follow this daily habit:
+
+Pull at the start of the day (git pull origin main).
+
+Code and make your changes.
+
+Push at the end of the day (git add, git commit, git push).
+
+--------------------------------------------------
+git pull origin main ===> pull code remote to local
+git add README.md (README.md file should changed.)
+git commit -m "Docs: Added Technologies Used section to README"
+git push origin main

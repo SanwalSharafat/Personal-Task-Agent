@@ -109,4 +109,3 @@ def run_agent_loop(prompt, max_iterations=5):
             return response.text # Or response.candidates[0].content.parts[0].text
 
     return "Max iterations reached without a final answer."
-
